@@ -1,0 +1,11 @@
+:root {
+    --color: blue;
+}
+
+.cabi_helloworld {
+    color: var(--color);
+}
+
+
+
+

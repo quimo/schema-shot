@@ -1,0 +1,29 @@
+{
+    "@context": "http://schema.org",
+    "@type": "Organization",
+    "name": "[?name?]",
+    "alternateName": "[?alternateName?]",
+    "mainEntityOfPage": {
+        "@type": "WebPage",
+        "name": "[?name?]",
+        "@id": "[+post_permalink+]"
+    },
+    "url": "[+site_url+]",
+    "logo": "[+post_image+]",
+    "contactPoint": [
+        {
+            "@type": "ContactPoint",
+            "telephone": "",
+            "contactType": "customer service"
+        },
+        {
+            "@type": "ContactPoint",
+            "telephone": "",
+            "contactType": "technical support"
+        }
+    ],
+    "sameAs": [
+        "SOCIAL 1 << MODIFICARE",
+        "SOCIAL 2 << MODIFICARE"
+    ]
+}

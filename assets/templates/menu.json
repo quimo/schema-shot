@@ -1,0 +1,6 @@
+{
+    "@context": "http://schema.org",
+    "@type": "Menu",
+    "name": "[+post_title+]",
+    "mainEntityOfPage": "[+post_permalink+]",
+    "inLanguage": "Italian"

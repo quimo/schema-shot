@@ -1,0 +1,57 @@
+{
+    "@context": "http://schema.org",
+    "@type": "[?localBusinessType?]",
+    "name": "[?name?]",
+    "alternateName": "[?alternateName?]",
+    "mainEntityOfPage": {
+        "@type": "WebPage",
+        "@id": "[+post_permalink+]"
+    },
+    "image": [
+        "GOOGLE MY BUSINESS FIRST IMAGE URL",
+        "GOOGLE MY BUSINESS SECOND IMAGE URL"
+    ],
+    "telephone": "+39 1234 567890 << MODIFICARE",
+    "priceRange": "$",
+    "address": {
+        "@type": "PostalAddress",
+        "streetAddress": "Via Rossi, 12 << MODIFICARE",
+        "addressLocality": "MILANO << MODIFICARE",
+        "addressRegion": "",
+        "postalCode": "20019 << MODIFICARE",
+        "addressCountry": "IT"
+    },
+    "aggregateRating": {
+        "@type": "AggregateRating",
+        "ratingValue": "4",
+        "reviewCount": "250"
+    },
+    "geo": {
+        "@type": "GeoCoordinates",
+        "latitude": 40.5,
+        "longitude": 30.5
+    },
+    "openingHoursSpecification": [
+        {
+            "@type": "OpeningHoursSpecification",
+            "dayOfWeek": [
+                "Lunedi",
+                "Martedi"
+            ],
+            "opens": [
+                "09:00",
+                "15:00"
+            ],
+            "closes": [
+                "11:00",
+                "18:00"
+            ]
+        },
+        {
+            "@type": "OpeningHoursSpecification",
+            "dayOfWeek": "Mercoledi",
+            "opens": "10:00",
+            "closes": "13:00"
+        }
+    ]
+}

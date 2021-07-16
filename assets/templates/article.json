@@ -1,0 +1,21 @@
+{
+    "@context": "http://schema.org",
+    "@type": "BlogPosting",
+    "headline": "[+post_title+]",
+    "author": "[+post_author+]",
+    "datePublished": "[+post_date+]",
+    "publisher": {
+        "@context": "http://schema.org",
+        "@type": "[?localBusinessType?]",
+        "name": "[+post_publisher+]",
+        "logo": {
+            "@type": "ImageObject",
+            "url": "[+post_logo+]"
+        }
+    },
+    "dateModified": "[+post_modified+]",
+    "image": {
+        "@type": "ImageObject",
+        "url": "[+post_image+]"
+    }
+}

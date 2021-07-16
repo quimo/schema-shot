@@ -1,0 +1,12 @@
+{
+    "@context": "http://schema.org/",
+    "@type": "WebSite",
+    "name": "[?name?]",
+    "alternateName": "[?alternateName?]",
+    "url": "[+site_url+]",
+    "potentialAction": {
+        "@type": "SearchAction",
+        "target": "[+site_url+]/?s={search_term}",
+        "query-input": "required name=search_term"
+    }
+}

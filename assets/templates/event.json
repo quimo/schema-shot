@@ -1,0 +1,17 @@
+{
+    "@context": "http://schema.org",
+    "@type": "Event",
+    "name": "",
+    "startDate": "",
+    "location": {
+        "@type": "Place",
+        "name": "",
+        "address": {
+            "@type": "PostalAddress",
+            "streetAddress": "",
+            "addressLocality": "",
+            "postalCode": "",
+            "addressCountry": ""
+        }
+    }
+}

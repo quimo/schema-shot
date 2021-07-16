@@ -1,0 +1,6 @@
+{
+    "@context": "http://schema.org/",
+    "@type": "Product",
+    "name": "[+post_title+]",
+    "image": "[+post_image+]",
+    "description": "[+post_description+]",

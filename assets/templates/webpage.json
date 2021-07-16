@@ -1,0 +1,14 @@
+{
+    "@context": "http://schema.org/",
+    "@type": "WebPage",
+    "description": "[+post_excerpt+]",
+    "@id": "[+post_permalink+]",
+    "publisher": {
+        "name": "[?name?]"
+    },
+    "mainEntity": {
+        "@type": "[?localBusinessType?]",
+        "name": "[+post_title+]",
+        "image": "[+post_image+]"
+    }
+}

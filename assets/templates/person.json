@@ -1,0 +1,17 @@
+{
+    "@context": "http://schema.org/",
+    "@type": "Person",
+    "name": "Mario Rossi",
+    "url": "https://www.mariorossi.it",
+    "image": "https://www.mariorossi.it/photo.jpg",
+    "sameAs": [
+        "https://www.mariorossi.com",
+        "https://www.mariorossi.net",
+        "https://www.facebook.com/mario.rossi"
+    ],
+    "jobTitle": "Account Manager",
+    "worksFor": {
+        "@type": "Organization",
+        "name": "Mario Rossi srl"
+    }
+}
